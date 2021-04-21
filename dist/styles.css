@@ -1,0 +1,23 @@
+div#player {
+  height: 400px;
+  width: 600px;
+  box-shadow: 12px 12px 6px 1px rgba(0, 0, 0, .2);
+  display: flex;
+  background-color: black;
+  justify-content: flex-end;
+  flex-flow: column nowrap;
+ }
+
+div.js-video-container {
+  flex: 1;
+  overflow: auto;
+}
+
+button {
+  flex: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+}
+

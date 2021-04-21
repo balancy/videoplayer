@@ -13,11 +13,19 @@ div.js-video-container {
   overflow: auto;
 }
 
+.buttons{
+  display: flex;
+}
+
 button {
-  flex: none;
   border: none;
   cursor: pointer;
   color: white;
   background-color: transparent;
+  font-size: 1rem;
+  margin-right: auto;
 }
 
+div.space-between-buttons {
+  flex: 1;
+}

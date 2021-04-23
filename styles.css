@@ -1,20 +1,19 @@
-.whole_player {
+.player, .screen, .bottom-controls {
+  display: flex;
+}
+
+.player {
+  background-color: black;
   height: 400px;
   width: 600px;
   box-shadow: 12px 12px 6px 1px rgba(0, 0, 0, .2);
-  display: flex;
-  background-color: black;
   justify-content: flex-end;
   flex-flow: column nowrap;
- }
-
-.js-video-container {
-  flex: 1;
-  overflow: auto;
 }
 
-.buttons{
-  display: flex;
+.screen {
+  flex: 1;
+  overflow: auto;
 }
 
 .action-button {
@@ -23,7 +22,7 @@
   color: white;
   background-color: transparent;
   font-size: 1rem;
-  margin-right: auto;
+  margin-right: 6px;
 }
 
 .space-between-buttons {

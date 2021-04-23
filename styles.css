@@ -1,4 +1,4 @@
-.player, .screen, .bottom-controls {
+.player-display-flex {
   display: flex;
 }
 
@@ -11,12 +11,12 @@
   flex-flow: column nowrap;
 }
 
-.screen {
+.player .screen {
   flex: 1;
   overflow: auto;
 }
 
-.action-button {
+.player .bottom-controls .left-buttons .action-button {
   border: none;
   cursor: pointer;
   color: white;

@@ -1,4 +1,4 @@
-div#player {
+.whole_player {
   height: 400px;
   width: 600px;
   box-shadow: 12px 12px 6px 1px rgba(0, 0, 0, .2);
@@ -8,7 +8,7 @@ div#player {
   flex-flow: column nowrap;
  }
 
-div.js-video-container {
+.js-video-container {
   flex: 1;
   overflow: auto;
 }
@@ -17,7 +17,7 @@ div.js-video-container {
   display: flex;
 }
 
-button {
+.action-button {
   border: none;
   cursor: pointer;
   color: white;
@@ -26,6 +26,6 @@ button {
   margin-right: auto;
 }
 
-div.space-between-buttons {
+.space-between-buttons {
   flex: 1;
 }

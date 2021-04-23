@@ -16,7 +16,7 @@
   overflow: auto;
 }
 
-.player .bottom-controls .left-buttons .action-button {
+.player .bottom-controls .action-button {
   border: none;
   cursor: pointer;
   color: white;

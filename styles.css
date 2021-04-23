@@ -25,6 +25,6 @@
   margin-right: 6px;
 }
 
-.space-between-buttons {
+.player .bottom-controls .space-between-buttons {
   flex: 1;
 }

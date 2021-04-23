@@ -4,7 +4,7 @@
 
 ![player_example](https://i.ibb.co/N7H6nn4/player.png)
 
-Ссылка на [плеер на Github Pages](https://balancy.github.io/videoplayer/)
+Рабочая версия плеера на [Github Pages](https://balancy.github.io/videoplayer/)
 
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
 

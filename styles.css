@@ -17,12 +17,18 @@
 }
 
 .player .bottom-controls .action-button {
+  height: 30px;
+  width: 30px;
   border: none;
   cursor: pointer;
   color: white;
   background-color: transparent;
   font-size: 1rem;
-  margin-right: 6px;
+  margin-right: 3px;
+}
+
+.player .bottom-controls .left-buttons .fa-volume-off {
+  margin-left: -8px;
 }
 
 .player .bottom-controls .space-between-buttons {

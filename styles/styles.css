@@ -14,6 +14,10 @@
   color: white;
 }
 
+.red {
+  background-color: red;
+}
+
 .player {
   background-color: black;
   height: 600px;
@@ -21,6 +25,7 @@
   box-shadow: 12px 12px 6px 1px rgba(0, 0, 0, .2);
   justify-content: flex-end;
   flex-flow: column nowrap;
+  margin: 8px;
 }
 
 .player .bottom-controls {
@@ -62,20 +67,24 @@
   margin: 12px 10px;
 }
 
-.player .bottom-controls .progress-slider {
-  background-color: red;
-}
-
-.player .bottom-controls .duration-time {
-  margin-right: 5px;
-}
-
-.player .bottom-controls .dot {
+.player .bottom-controls .progress-bar .dot {
   height: 8px;
   width: 8px;
-  background-color: red;
   border-radius: 50%;
   display: flex;
   border: solid white 3px;
   margin: -4px 4px 0 0;
+  opacity: 0%;
+  transition-timing-function: ease-out;
+  transition: 0.3s;
+}
+
+.player .bottom-controls .progress-bar:hover .dot {
+  opacity: 100%;
+  transition-timing-function: ease-in;
+  transition: 0.3s;
+}
+
+.player .bottom-controls .duration-time {
+  margin-right: 5px;
 }

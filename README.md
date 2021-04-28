@@ -2,7 +2,7 @@
 
 Простой видеоплеер с несколькими элементами управления.
 
-![player_example](https://i.ibb.co/N7H6nn4/player.png)
+![player_example](https://i.ibb.co/Pz9xQ8p/player.png)
 
 Рабочая версия плеера на [Github Pages](https://balancy.github.io/videoplayer/).
 

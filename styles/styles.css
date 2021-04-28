@@ -63,7 +63,7 @@
 }
 
 .player .bottom-controls .progress-bar {
-  background-color: grey;
+  background-color: black;
   margin: 12px 10px;
 }
 
@@ -71,9 +71,8 @@
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  display: flex;
   border: solid white 3px;
-  margin: -4px 4px 0 0;
+  margin: -4px 0 0 -8px;
   opacity: 0%;
   transition-timing-function: ease-out;
   transition: 0.3s;

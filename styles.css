@@ -39,6 +39,10 @@
   margin-right: 3px;
 }
 
+.player .bottom-controls .left-buttons .fa-volume-off {
+  margin-left: -10px;
+}
+
 .player .bottom-controls .time {
   font-family: 'Roboto', sans-serif;
   margin-top: 6px;
@@ -48,10 +52,30 @@
   margin-left: 1px;
 }
 
+.player .bottom-controls .progress-elm {
+  height: 5px;
+  border-radius: 5px;
+}
+
+.player .bottom-controls .progress-bar {
+  background-color: grey;
+  margin: 12px 10px;
+}
+
+.player .bottom-controls .progress-slider {
+  background-color: red;
+}
+
 .player .bottom-controls .duration-time {
   margin-right: 5px;
 }
 
-.player .bottom-controls .left-buttons .fa-volume-off {
-  margin-left: -10px;
+.player .bottom-controls .dot {
+  height: 8px;
+  width: 8px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  border: solid white 3px;
+  margin: -4px 4px 0 0;
 }

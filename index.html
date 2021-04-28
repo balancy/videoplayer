@@ -6,6 +6,8 @@
 
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="player" class="player display-flex">
@@ -13,14 +15,16 @@
     </div>
     <div class="bottom-controls display-flex">
       <div class="left-buttons">
-        <button type="button" class="action-button js-play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
-        <button type="button" class="action-button js-pause-button"><i class="fa fa-pause" aria-hidden="true"></i></button>
-        <button type="button" class="action-button js-mute-button"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
-        <button type="button" class="action-button js-volume-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
+        <button type="button" class="action-button white-text js-play-button"><i class="fa fa-play" aria-hidden="true"></i></button>
+        <button type="button" class="action-button white-text js-pause-button"><i class="fa fa-pause" aria-hidden="true"></i></button>
+        <button type="button" class="action-button white-text js-mute-button"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+        <button type="button" class="action-button white-text js-volume-button"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
       </div>
+      <div class="white-text time current-time js-current-time"></div>
       <div class="space-between-buttons flexible-length"></div>
+      <div class="white-text time duration-time js-duration"></div>
       <div class="right-buttons">
-        <button type="button" class="action-button js-fullscreen-button"><i class="fa fa-expand" aria-hidden="true"></i></button>
+        <button type="button" class="action-button white-text js-fullscreen-button"><i class="fa fa-expand" aria-hidden="true"></i></button>
       </div>
     </div>
 

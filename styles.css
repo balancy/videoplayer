@@ -10,6 +10,10 @@
   overflow: auto;
 }
 
+.white-text {
+  color: white;
+}
+
 .player {
   background-color: black;
   height: 600px;
@@ -30,10 +34,22 @@
   width: 30px;
   border: none;
   cursor: pointer;
-  color: white;
   background-color: transparent;
   font-size: 1.25rem;
   margin-right: 3px;
+}
+
+.player .bottom-controls .time {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 6px;
+}
+
+.player .bottom-controls .current-time {
+  margin-left: 1px;
+}
+
+.player .bottom-controls .duration-time {
+  margin-right: 5px;
 }
 
 .player .bottom-controls .left-buttons .fa-volume-off {

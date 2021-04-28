@@ -1,19 +1,28 @@
-.player-display-flex {
+.display-flex {
   display: flex;
+}
+
+.flexible-length {
+  flex: 1;
+}
+
+.auto-overflow {
+  overflow: auto;
 }
 
 .player {
   background-color: black;
-  height: 400px;
-  width: 600px;
+  height: 600px;
+  width: 800px;
   box-shadow: 12px 12px 6px 1px rgba(0, 0, 0, .2);
   justify-content: flex-end;
   flex-flow: column nowrap;
 }
 
-.player .screen {
-  flex: 1;
-  overflow: auto;
+.player .bottom-controls {
+  margin-bottom: 8px;
+  margin-left: 2px;
+  margin-right: 1px;
 }
 
 .player .bottom-controls .action-button {
@@ -23,14 +32,10 @@
   cursor: pointer;
   color: white;
   background-color: transparent;
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-right: 3px;
 }
 
 .player .bottom-controls .left-buttons .fa-volume-off {
-  margin-left: -8px;
-}
-
-.player .bottom-controls .space-between-buttons {
-  flex: 1;
+  margin-left: -10px;
 }
